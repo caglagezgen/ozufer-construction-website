@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #0066ff, #00ccff);
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 10px;
+        font-size: 90%;
+    }
+
+    header .container, nav .container, .features .container, .services .container, .about .container, .testimonials .container, footer .container {
+        padding: 0 15px;
+    }
+
+    .features .row > div, .services .row > div, .testimonials .row > div {
+        margin-bottom: 20px;
+    }
+}
