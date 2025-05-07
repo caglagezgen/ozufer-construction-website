@@ -1,4 +1,4 @@
-# Landing Page Project
+# Construction Landing Page Project
 
 This project is a simple landing page built with HTML, CSS, JavaScript, and Bootstrap.
 
