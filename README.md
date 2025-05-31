@@ -26,15 +26,21 @@ This project is a simple landing page built with HTML, CSS, JavaScript, and Boot
 
 Feel free to modify the `css/styles.css` and `js/scripts.js` files to customize the design and functionality of the landing page.
 
-## DNS Configuration for Custom Domain
+## Custom Domain Setup (GoDaddy)
 
-If you are using a custom domain (like ozufer.com), make sure your DNS records are set as follows:
+To use your GoDaddy domain (ozufer.com) with GitHub Pages:
 
-- A records for ozufer.com pointing to:
-  - 185.199.108.153
-  - 185.199.109.153
-  - 185.199.110.153
-  - 185.199.111.153
-- CNAME record for www.ozufer.com pointing to your-username.github.io
+1. In your GoDaddy DNS settings, add these A records for ozufer.com:
+   - 185.199.108.153
+   - 185.199.109.153
+   - 185.199.110.153
+   - 185.199.111.153
+2. For www.ozufer.com, add a CNAME record pointing to your GitHub Pages URL (e.g., your-username.github.io).
+3. In this repository, ensure the CNAME file contains only:
+   
+   ```
+   ozufer.com
+   ```
+4. Wait for DNS changes to propagate (can take up to 24 hours).
 
-Refer to the [GitHub Pages custom domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site) for more details.
+Your site will be served at https://ozufer.com once everything is set up.
