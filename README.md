@@ -25,3 +25,16 @@ This project is a simple landing page built with HTML, CSS, JavaScript, and Boot
 ## Customization
 
 Feel free to modify the `css/styles.css` and `js/scripts.js` files to customize the design and functionality of the landing page.
+
+## DNS Configuration for Custom Domain
+
+If you are using a custom domain (like ozufer.com), make sure your DNS records are set as follows:
+
+- A records for ozufer.com pointing to:
+  - 185.199.108.153
+  - 185.199.109.153
+  - 185.199.110.153
+  - 185.199.111.153
+- CNAME record for www.ozufer.com pointing to your-username.github.io
+
+Refer to the [GitHub Pages custom domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site) for more details.
